@@ -31,3 +31,44 @@ body {
   width: 50px;
   margin-right: 5rem;
 }
+
+.content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  padding: 2rem 4rem;
+  background-color: rgb(221, 221, 221);
+}
+
+.footer-column-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 2rem;
+}
+
+.footer-column h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.footer-column li {
+  font-size: 20px;
+  margin: 0.5rem 0rem;
+  font-weight: 600;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.footer-column li:hover {
+  color: rgb(100, 100, 0);
+}
